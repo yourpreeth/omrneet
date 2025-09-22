@@ -11,3 +11,4 @@ def read_root():
 async def check_omr(file: UploadFile, answer_key: str = Form(...)):
     # Mock processing
     return JSONResponse({"status": "success", "score": 180})
+
