@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OMR NEET Checker</title>
+</head>
+<body>
+  <h1>Upload OMR Sheet</h1>
+  <form action="/check" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" required />
+    <input type="text" name="answer_key" placeholder="Answer Key" required />
+    <button type="submit">Check</button>
+  </form>
+</body>
+</html>
